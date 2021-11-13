@@ -66,7 +66,7 @@
 		echo "<form method='POST' action='' id='cars'>
 		<ul>";
 		foreach ($cars as $car) { 
-		   echo '<li><input type="radio" name="car" value="' .$car . '"> ' . $car . '</li>'; 
+		   echo '<li><input type="radio" name="car" value="' .$car . '" required> ' . $car . '</li>'; 
 		} 
 		
 	  echo "
